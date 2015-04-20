@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="ImageProcessing">
+    <file>icons/delete.png</file>
+    <file>icons/video.png</file>
+  </qresource>
+</RCC>

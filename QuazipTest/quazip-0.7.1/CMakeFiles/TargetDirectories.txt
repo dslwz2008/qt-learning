@@ -1,0 +1,3 @@
+D:/programs/quazip-0.7.1/CMakeFiles/ALL_BUILD.dir
+D:/programs/quazip-0.7.1/CMakeFiles/ZERO_CHECK.dir
+D:/programs/quazip-0.7.1/quazip/CMakeFiles/quazip.dir

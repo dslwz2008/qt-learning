@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="ExportPdf">
+    <file>TOPCONNW300_A5.html</file>
+    <file>test.html</file>
+  </qresource>
+</RCC>

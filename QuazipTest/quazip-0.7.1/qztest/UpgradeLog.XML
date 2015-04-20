@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="qztest">
+</Property><Property Name="Solution File" Value="D:\Programs\flycapture\trunk\FlycapEx\quazip-0.7.1\qztest\qztest.sln">
+</Property><Property Name="Date" Value="2015年1月16日">
+</Property><Property Name="Time" Value="20:03">
+</Property></Properties><Event ErrorLevel="0" Project="qztest" Source="qztest.vcproj" Description="Converting project file 'D:\Programs\flycapture\trunk\FlycapEx\quazip-0.7.1\qztest\qztest.vcproj'.">
+</Event><Event ErrorLevel="1" Project="qztest" Source="qztest.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="qztest" Source="qztest.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="qztest" Source="qztest.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="2" Project="qztest" Source="qztest.vcproj" Description="Failed to upgrade ProjectReference 'D:\Programs\flycapture\trunk\FlycapEx\quazip-0.7.1\qztest\quazip\quazip.vcproj'. Please make sure the file is not missing from disk, and the solution/project has the correct project reference path.">
+</Event><Event ErrorLevel="0" Project="qztest" Source="qztest.vcproj" Description="Done converting to new project file 'D:\Programs\flycapture\trunk\FlycapEx\quazip-0.7.1\qztest\qztest.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="qztest" Source="qztest.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="quazip" Source="..\quazip\quazip.vcproj" Description="Converting project file 'D:\Programs\flycapture\trunk\FlycapEx\quazip-0.7.1\quazip\quazip.vcproj'.">
+</Event><Event ErrorLevel="1" Project="quazip" Source="..\quazip\quazip.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="quazip" Source="..\quazip\quazip.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="quazip" Source="..\quazip\quazip.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="quazip" Source="..\quazip\quazip.vcproj" Description="MSB8012: $(TargetPath) ('D:\Programs\flycapture\trunk\FlycapEx\quazip-0.7.1\quazip\Debug\quazip.dll') does not match the Linker's OutputFile property value 'Debug\quazip.dll' ('D:\Programs\flycapture\trunk\FlycapEx\quazip-0.7.1\qztest\Debug\quazip.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="quazip" Source="..\quazip\quazip.vcproj" Description="MSB8012: $(TargetPath) ('D:\Programs\flycapture\trunk\FlycapEx\quazip-0.7.1\quazip\Release\quazip.dll') does not match the Linker's OutputFile property value 'Release\quazip.dll' ('D:\Programs\flycapture\trunk\FlycapEx\quazip-0.7.1\qztest\Release\quazip.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="quazip" Source="..\quazip\quazip.vcproj" Description="Done converting to new project file 'D:\Programs\flycapture\trunk\FlycapEx\quazip-0.7.1\quazip\quazip.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="quazip" Source="..\quazip\quazip.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="qztest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="qztest.sln" Description="Converted">
+</Event></UpgradeLog>
