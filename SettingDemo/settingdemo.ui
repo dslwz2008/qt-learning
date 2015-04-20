@@ -27,7 +27,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -42,11 +42,6 @@
        <property name="editable">
         <bool>true</bool>
        </property>
-       <item>
-        <property name="text">
-         <string>Default</string>
-        </property>
-       </item>
       </widget>
      </item>
      <item>
