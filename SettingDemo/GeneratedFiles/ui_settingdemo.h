@@ -31,7 +31,7 @@ class Ui_SettingDemoClass
 public:
     QWidget *centralWidget;
     QSlider *horizontalSlider;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout;
     QComboBox *cmbSchemes;
     QPushButton *btnNew;
@@ -52,31 +52,31 @@ public:
         horizontalSlider->setObjectName(QString::fromUtf8("horizontalSlider"));
         horizontalSlider->setGeometry(QRect(100, 90, 160, 19));
         horizontalSlider->setOrientation(Qt::Horizontal);
-        widget = new QWidget(centralWidget);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(90, 20, 314, 25));
-        horizontalLayout = new QHBoxLayout(widget);
+        layoutWidget = new QWidget(centralWidget);
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setGeometry(QRect(90, 20, 314, 25));
+        horizontalLayout = new QHBoxLayout(layoutWidget);
         horizontalLayout->setSpacing(6);
         horizontalLayout->setContentsMargins(11, 11, 11, 11);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        cmbSchemes = new QComboBox(widget);
+        cmbSchemes = new QComboBox(layoutWidget);
         cmbSchemes->setObjectName(QString::fromUtf8("cmbSchemes"));
         cmbSchemes->setEditable(true);
 
         horizontalLayout->addWidget(cmbSchemes);
 
-        btnNew = new QPushButton(widget);
+        btnNew = new QPushButton(layoutWidget);
         btnNew->setObjectName(QString::fromUtf8("btnNew"));
 
         horizontalLayout->addWidget(btnNew);
 
-        btnSave = new QPushButton(widget);
+        btnSave = new QPushButton(layoutWidget);
         btnSave->setObjectName(QString::fromUtf8("btnSave"));
 
         horizontalLayout->addWidget(btnSave);
 
-        btnDelete = new QPushButton(widget);
+        btnDelete = new QPushButton(layoutWidget);
         btnDelete->setObjectName(QString::fromUtf8("btnDelete"));
 
         horizontalLayout->addWidget(btnDelete);
@@ -101,10 +101,6 @@ public:
     void retranslateUi(QMainWindow *SettingDemoClass)
     {
         SettingDemoClass->setWindowTitle(QApplication::translate("SettingDemoClass", "SettingDemo", 0, QApplication::UnicodeUTF8));
-        cmbSchemes->clear();
-        cmbSchemes->insertItems(0, QStringList()
-         << QApplication::translate("SettingDemoClass", "Default", 0, QApplication::UnicodeUTF8)
-        );
         btnNew->setText(QApplication::translate("SettingDemoClass", "\346\226\260\345\273\272", 0, QApplication::UnicodeUTF8));
         btnSave->setText(QApplication::translate("SettingDemoClass", "\344\277\235\345\255\230", 0, QApplication::UnicodeUTF8));
         btnDelete->setText(QApplication::translate("SettingDemoClass", "\345\210\240\351\231\244", 0, QApplication::UnicodeUTF8));
